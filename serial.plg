@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: serial - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSPD7E3.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/serial.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\second year\ACA project\waveeq\omp2.cpp"
+]
+Creating command line "cl.exe @C:\Users\dell\AppData\Local\Temp\RSPD7E3.tmp" 
+<h3>Output Window</h3>
+Compiling...
+omp2.cpp
+d:\second year\aca project\waveeq\omp2.cpp(6) : fatal error C1083: Cannot open include file: 'omp.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+omp2.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
